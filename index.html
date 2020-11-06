@@ -1,0 +1,1530 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="bookImages/logo.png" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Book Shop</title>
+</head>
+
+<body>
+    <!-- ==== Header Section Start ==== -->
+    <header>
+        <!-- Top Header -->
+        <div class="nav-top d-none d-md-block">
+            <div class="container nav">
+                <li class="nav-item mr-3">
+                    <i class="nav-top-icon" data-feather="phone-call"></i>
+                    <a href="tel:+09638111666">09638111666</a>
+                </li>
+                <li class="nav-item">
+                    <i class="nav-top-icon" data-feather="mail"></i>
+                    <a href="mailto:support@evaly.com.bd">support@something.com.bd</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <i class="nav-top-icon" data-feather="smartphone"></i>
+                    <a href="#">Save big on our app!</a>
+                </li>
+            </div>
+        </div>
+        <!-- Main Header -->
+        <div class="sticky d-none d-md-block " id="main-header">
+            <!-- Navbar 1 -->
+            <nav class="navbar navbar-expand-md navbar-light py-3 ">
+                <div class="container">
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <a href="" class="navbar-brand text-center">
+                            <img class="navbar-brand-icon" src="bookImages/logo.png" alt="">
+                        </a>
+
+                    </div>
+                    <div class="col-md-7">
+                        <form class="d-flex mr-auto">
+                            <input class="search-box w-100" type="search" placeholder="Search for ...">
+                            <button class="search-box-btn" type="submit">
+                                <i class="search-box-btn-icon" data-feather="search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-1">
+                        <div class="col-md-3">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="main-header-icon" data-feather="shopping-bag"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="main-header-icon" data-feather="bell"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="main-header-icon" data-feather="message-square"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="main-header-icon" data-feather="user"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- ==== 2nd Navbar Start ==== -->
+            <nav class="navbar navbar-expand-md navbar-2 shadow-sm">
+                <div class="container">
+
+                    <ul class="navbar-nav navbar-nav-1">
+                        <div class="dropdown">
+                            <button class="btn-style" id="toggler-btn">
+                                <i data-feather="menu"></i>
+                            </button>
+                            <li class="nav-item">
+                                <span class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span>Catagories</span>
+                                    <i class="ml-3" data-feather="chevron-down"></i>
+                                </span>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <span class="dropdown-item insert-sub-category">
+                                        <div class="d-flex justify-content-between w-100">
+                                            <span>Smart Tv & Android Tv</span>
+                                            <span>
+                                                <i style="width:15px;" data-feather="chevron-right"></i>
+                                            </span>
+                                        </div>
+                                        <div class="sub-category">
+                                            <div class="sub-category-item">
+                                                <a class="dropdown-item" href="#">
+                                                    <span>Samsung</span>
+                                                    <span>
+                                                        <i style="width:15px;" data-feather="chevron-right"></i>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-category-item">
+                                                <a class="dropdown-item" href="#">
+                                                    <span>Vivo</span>
+                                                    <span>
+                                                        <i style="width:15px;" data-feather="chevron-right"></i>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-category-item">
+                                                <a class="dropdown-item" href="#">
+                                                    <span>Oppo</span>
+                                                    <span>
+                                                        <i style="width:15px;" data-feather="chevron-right"></i>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-category-item">
+                                                <a class="dropdown-item" href="#">
+                                                    <span>Nokia</span>
+                                                    <span>
+                                                        <i style="width:15px;" data-feather="chevron-right"></i>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-category-item">
+                                                <a class="dropdown-item" href="#">
+                                                    <span>Apple</span>
+                                                    <span>
+                                                        <i style="width:15px;" data-feather="chevron-right"></i>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-category-item">
+                                                <a class="dropdown-item" href="#">
+                                                    <span>Realme</span>
+                                                    <span>
+                                                        <i style="width:15px;" data-feather="chevron-right"></i>
+                                                    </span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </span>
+                                    <a class="dropdown-item" href="#">
+                                        <span>Desktop</span>
+                                        <span>
+                                            <i style="width:15px;" data-feather="chevron-right"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <span>Laptop & Monitor</span>
+                                        <span>
+                                            <i style="width:15px;" data-feather="chevron-right"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <span>Motor Bike</span>
+                                        <span>
+                                            <i style="width:15px;" data-feather="chevron-right"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <span>Smart Phone</span>
+                                        <span>
+                                            <i style="width:15px;" data-feather="chevron-right"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <span>Freezer</span>
+                                        <span>
+                                            <i style="width:15px;" data-feather="chevron-right"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <span>Split AC</span>
+                                        <span>
+                                            <i style="width:15px;" data-feather="chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item ml-5  pl-5">
+                            <a class="nav-link " href="#">বই</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ইলেক্ট্রনিক্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">স্টেশনারী ও অন্যান্য</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">গিফট ফাইন্ডার</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">প্রাতিষ্ঠানিক অর্ডার</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ব্লগ</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </nav>
+            <!-- ==== End 2nd Navbar ==== -->
+
+        </div> <!-- End Main Header -->
+
+
+        <!-- ==== Mobile and Tab Navigation ==== -->
+        <nav class="moblie-nav-section fixed d-md-none d-lg-none">
+            <div class="">
+                <div class="mobile-nav">
+                    <button class="mobile-nav-button">
+                        <i data-feather="menu" width="25px"></i>
+                    </button>
+
+                    <div>
+                        <a href="" class="text-center">
+                            <img class="mobile-nav-icon" src="bookImages/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="mobile-nav-login">
+                        <a class="mobile-nav-login-link" href="#">
+
+                            <i style="color: black; width: 16px; height: 16px" data-feather="user"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <form class="d-flex mt-3 mx-2">
+                            <input class="search-box w-100" type="search" placeholder="Search for ...">
+                            <button class="search-box-btn" type="submit">
+                                <i class="search-box-btn-icon" data-feather="search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ==== Side Menu Start ==== -->
+        <div class="side-menu-overlay">
+            <div class="side-menu">
+                <!-- Top Section-->
+                <div class="side-menu-top  ">
+                    <img class="navbar-brand-icon " src="bookImages/logo.png" alt="">
+                    <span id="times-icon" class="times-icon d-inline-block"> &times;</span>
+                </div>
+                <!-- Login Section-->
+                <div class="side-menu-login">
+                    <div class="side-menu-img">
+                        <img src="bookImages/bg-romove-log.png" alt="">
+                        <span>Account</span>
+                    </div>
+                    <div class="side-menu-login-btn">
+                        <a href="/" class="btn btn-outline-danger btn-block"> login </a>
+                    </div>
+                </div>
+                <!-- Link Section -->
+                <div class="side-menu-link">
+                    <!-- Link item 1 -->
+                    <a href="/" class="side-menu-link-item">
+                        <div>
+                            <span class="side-menu-logo mr-3">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="side-menu-text">Products</span>
+                        </div>
+                        <span class="side-menu-arrow">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                            </svg>
+                        </span>
+                    </a>
+                    <!-- Link item 2 -->
+                    <a href="/" class="side-menu-link-item">
+                        <div>
+                            <span class="side-menu-logo mr-3">
+                                <svg class="bi" width="14" height="14" fill="currentColor">
+                                    <use xlink:href="images/icons/bootstrap-icons.svg#newspaper" />
+                                </svg>
+                            </span>
+                            <span class="side-menu-text">News Feed</span>
+                        </div>
+                        <span class="side-menu-arrow">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                            </svg>
+                        </span>
+                    </a>
+                    <!-- Link item 3 -->
+                    <a href="/" class="side-menu-link-item">
+                        <div>
+                            <span class="side-menu-logo mr-3">
+                                <svg class="bi" width="14" height="14" fill="currentColor">
+                                    <use xlink:href="images/icons/bootstrap-icons.svg#gift-fill" />
+                                </svg>
+                            </span>
+                            <span class="side-menu-text">Giftcard</span>
+                        </div>
+                        <span class="side-menu-arrow">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                            </svg>
+                        </span>
+                    </a>
+                    <!-- Link item 4 -->
+                    <a href="/" class="side-menu-link-item">
+                        <div>
+                            <span class="side-menu-logo mr-3">
+                                <svg class="bi" width="14" height="14" fill="currentColor">
+                                    <use xlink:href="images/icons/bootstrap-icons.svg#list-ul" />
+                                </svg>
+                            </span>
+                            <span class="side-menu-text">Orders</span>
+                        </div>
+                        <span class="side-menu-arrow">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <!-- Customer Service Section 1 -->
+                <div class="customer-service mt-3">
+                    <svg viewBox="0 0 512 512" id="phone" class="customer-service-img">
+                        <title>Phone</title>
+                        <path
+                            d="m503.74 133.13c0-68.962-70.397-124.87-157.23-124.87-86.838 0-157.23 55.907-157.23 124.87 0 61.61 56.184 112.8 130.08 123.01h-0.224c3.878 23.82-3.277 49.113-21.476 67.485 39.048 0 71.282-29.409 76.178-67.48h-0.224c73.912-10.206 130.12-61.396 130.12-123.01z"
+                            fill="#FFD24D"></path>
+                        <path
+                            d="m346.97 406.74c-23.797-23.796-49.284-43.828-49.284-43.828l-37.135 37.135-148.59-148.59 37.134-37.135s-20.031-25.487-43.828-49.284c-23.797-23.796-49.284-43.828-49.284-43.828s-44.496 40.933-47.489 73.399c-4.003 43.455 41.996 122.46 114.22 194.68 72.22 72.218 151.23 118.22 194.68 114.22 32.466-2.994 73.4-47.489 73.4-47.489s-20.03-25.487-43.827-49.283z"
+                            fill="#c7262e"></path>
+                        <path
+                            d="m462.83 38.366c-31.151-24.741-72.457-38.366-116.31-38.366-43.855 0-85.164 13.625-116.31 38.365-31.709 25.183-49.173 58.837-49.173 94.762 0 63.23 54.559 117.14 130.67 130.18 1.555 20.122-5.665 40.143-19.891 54.505-2.346 2.367-3.038 5.914-1.755 8.99s4.289 5.079 7.622 5.079c40.541 0 75.336-29.048 83.348-68.524 35.248-6.016 67.374-21.301 91.021-43.408 25.768-24.093 39.96-54.926 39.96-86.82-1e-3 -35.924-17.464-69.578-49.176-94.761zm-90.329 209.59c-4.301 0.593-7.408 4.416-7.11 8.746 4e-3 0.064 0.01 0.127 0.015 0.189-4.198 27.037-23.813 48.559-48.986 55.822 9.81-16.641 13.891-36.384 11.186-55.9 3e-3 -0.037 6e-3 -0.076 9e-3 -0.115 0.298-4.332-2.809-8.152-7.109-8.747-71.246-9.847-122.96-58.14-122.96-114.83-1e-3 -64.298 66.827-116.61 148.97-116.61s148.97 52.312 148.97 116.61c1e-3 56.701-51.723 105-122.99 114.83z">
+                        </path>
+                        <path
+                            d="m291.09 124.32c-4.857 0-8.809 3.952-8.809 8.809s3.952 8.809 8.809 8.809 8.809-3.952 8.809-8.809-3.952-8.809-8.809-8.809z">
+                        </path>
+                        <path
+                            d="m401.94 124.32c-4.857 0-8.809 3.952-8.809 8.809s3.952 8.809 8.809 8.809 8.809-3.952 8.809-8.809-3.951-8.809-8.809-8.809z">
+                        </path>
+                        <path
+                            d="m346.52 124.32c-4.857 0-8.809 3.952-8.809 8.809s3.952 8.809 8.809 8.809 8.809-3.952 8.809-8.809-3.951-8.809-8.809-8.809z">
+                        </path>
+                        <path
+                            d="m352.8 400.9c-23.872-23.871-48.964-43.651-50.02-44.48-3.287-2.583-7.985-2.303-10.943 0.653l-31.295 31.296-101.61-101.61c-3.224-3.223-8.453-3.225-11.678 0-3.225 3.226-3.225 8.454 0 11.679l107.45 107.45c1.548 1.548 3.649 2.418 5.839 2.418s4.29-0.87 5.84-2.418l31.882-31.883c8.769 7.199 26.308 22.026 42.858 38.576 16.591 16.59 31.477 34.209 38.653 42.951-13.904 13.788-42.105 37.818-63.143 39.757-41.116 3.806-118.45-42.199-188.09-111.83-69.634-69.632-115.62-146.98-111.83-188.09 1.939-21.037 25.97-49.241 39.757-63.142 8.743 7.176 26.36 22.06 42.952 38.653 16.533 16.533 31.37 34.083 38.575 42.858l-31.882 31.881c-3.225 3.226-3.225 8.454 0 11.678l17.779 17.78c3.225 3.224 8.454 3.224 11.678 0 3.225-3.226 3.225-8.454 0-11.678l-11.94-11.941 31.295-31.295c2.956-2.958 3.237-7.656 0.653-10.943-0.83-1.056-20.61-26.149-44.481-50.02s-48.963-43.651-50.02-44.48c-3.183-2.502-7.711-2.328-10.694 0.415-1.913 1.76-46.873 43.491-50.121 78.718-4.273 46.379 42.585 127.27 116.6 201.28 70.894 70.892 148.09 116.87 195.23 116.87 2.077 0 4.097-0.089 6.053-0.269 35.227-3.248 76.961-48.209 78.719-50.122 2.742-2.981 2.918-7.509 0.415-10.695-0.827-1.056-20.607-26.15-44.479-50.02z">
+                        </path>
+                    </svg>
+                    <div class="customer-service-text">
+                        <span>Hotline</span>
+                        <h4><a href="tel:+">019++++++++</a></h4>
+                    </div>
+                </div>
+                <!-- Customer Service Section 2 -->
+                <div class="customer-service">
+                    <img style="height: 32px; width: 32px; margin-right: 14px; margin-top:10px"
+                        src="images/icons/bkash-icon.png" alt="">
+                    <div class="customer-service-text">
+                        <span>bKash</span>
+                        <h4><a href="tel:+">017++++++++</a></h4>
+                    </div>
+                </div>
+                <!-- Customer Service Section 1 -->
+                <div class="customer-service">
+                    <img style="height: 32px; width: 32px; margin-right: 14px; margin-top:10px"
+                        src="images/icons/bkash-icon.png" alt="">
+                    <div class="customer-service-text">
+                        <span>bKash</span>
+                        <h4><a href="tel:+">018++++++++</a></h4>
+                    </div>
+                </div>
+                <!-- Footer links section -->
+                <div class="side-menu-links">
+                    <a href="/">. About Us </a>
+                    <a href="/">. Contact us </a>
+                    <a href="/">. Privacy Policy</a>
+                    <a href="/">. Purchasing Policy</a>
+                    <a href="/">.Cookie Policy </a>
+                    <a href="">. Terms & Conditions</a>
+                    <a href=""> · Returns and Replacement</a>
+                </div>
+                <p class="pl-4">© e-valy.com 2020</p>
+            </div> <!-- End Side Menu Section -->
+        </div> <!-- End Side Menu overlay -->
+        <!-- ==== End Side Menu Section==== -->
+
+
+
+        <!-- ==== Mobile and Tab Navigation ==== -->
+        <nav class="mobile-bottom-menu fixed-nav-bottom  d-md-none d-lg-none">
+            <div class="container px-3">
+                <div class="d-flex justify-content-between py-3">
+
+                    <div class="bottom-menu-item">
+                        <span>
+                            <svg class="bi" width="16" height="16" fill="currentColor">
+                                <use xlink:href="images/icons/bootstrap-icons.svg#bag" />
+                            </svg>
+                        </span>
+                        <span class="menu-text"> Cart</span>
+                    </div>
+
+                    <div class="bottom-menu-item">
+                        <span>
+                            <svg class="bi" width="16" height="16" fill="currentColor">
+                                <use xlink:href="images/icons/bootstrap-icons.svg#bell" />
+                            </svg>
+                        </span>
+                        <span class="menu-text"> notification</span>
+                    </div>
+                    <div class="bottom-menu-item">
+                        <a href="#">
+                            <div class="botttom-menu-img">
+                                <img src="images/icons/e-icon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bottom-menu-item">
+                        <span>
+                            <svg class="bi" width="16" height="16" fill="currentColor">
+                                <use xlink:href="images/icons/bootstrap-icons.svg#chat-left" />
+                            </svg>
+                        </span>
+                        <span class="menu-text"> Chat</span>
+                    </div>
+                    <div class="bottom-menu-item">
+                        <span>
+                            <svg class="bi" width="16" height="16" fill="currentColor">
+                                <use xlink:href="images/icons/bootstrap-icons.svg#three-dots" />
+                            </svg>
+                        </span>
+                        <span class="menu-text">Menu</span>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- ==== Header Section End ==== -->
+
+    <main>
+        <!-- ==== Carousel Start ==== -->
+        <section class="slider-section container pt-3 ">
+            <div class="row ">
+                <div class="col-md-9">
+                    <div id="carouselId" class="carousel bg-pink slide " data-ride="carousel">
+                        <ol class="carousel-indicators ">
+                            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselId" data-slide-to="1"></li>
+                            <li data-target="#carouselId" data-slide-to="2"></li>
+                            <li data-target="#carouselId" data-slide-to="3"></li>
+                            <li data-target="#carouselId" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <a href="/">
+                                    <img class="img-fluid" src="images/slider/slider.1-1.png" alt="First slide">
+                                </a>
+                            </div>
+                            <div class="carousel-item ">
+                                <a href="/">
+                                    <img class="img-fluid" src="images/slider/slider.1-2.png" alt="First slide">
+                                </a>
+                            </div>
+                            <div class="carousel-item ">
+                                <a href="/">
+                                    <img class="img-fluid" src="images/slider/slider-1.png" alt="First slide">
+                                </a>
+                            </div>
+                            <div class="carousel-item ">
+                                <a href="/">
+                                    <img class="img-fluid" src="images/slider/slider-2.png" alt="First slide">
+                                </a>
+                            </div>
+                            <div class="carousel-item ">
+                                <a href="/">
+                                    <img class="img-fluid" src="images/slider/slider-3.png" alt="First slide">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============= secondary carousel ==================== -->
+                    <div class="owl-carousel owl-theme mt-3" id="secondary-carousel">
+                        <div class="item">
+                            <div class="hot-title">
+                                <h3>Hot Deal</h3>
+                                <p>Hot Deal Upto 37% Discount & 70% Cashback</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hot-title" style="background: linear-gradient(76deg, deeppink,pink);">
+                                <h3>Quick Deal</h3>
+                                <p>QUICK Deal Next Day Shipping</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row">
+                            <div class="col-md-6">
+                                <div class="hot-title">
+                                    <h3>Hot Deal</h3>
+                                    <p>Hot Deal Upto 37% Discount & 70% Cashback</p>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+
+                </div>
+                <div class="col-md-3 ">
+                    <div class="login-banner bg-white shadow-sm rounded-lg mt-4">
+                        <figure class="login-banner-user">
+                            <img src="bookImages/icons/user.png" alt="">
+                        </figure>
+                        <div style="margin-top: -25px">
+                            <h6 class="text-center">Welcome to All Express</h6>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn-style mr-4" style="background: royalBlue">Login</button>
+                                <button class="btn-style" style="background: #c9151b">SignIn</button>
+                            </div>
+                            <!-- <div class="d-flex justify-content-center">
+                                   <span class="social-icon"><img  src="bookImages/icons/facebook.png" alt=""> </span>
+                                   <span class="social-icon"><img src="bookImages/icons/google-glass-logo.png" alt=""> </span>
+                                   <span class="social-icon"><img src="bookImages/icons/twitter.png" alt=""> </figure>
+                                </div> -->
+                            <div class="login-banner-user-bg">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius dignissimos
+                                tenetur labore ducimus necessitatibus magni, voluptate qui, a, asperiores quae
+                                mollitia deleniti consequuntur unde maxime eum repellendus similique laborum?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, ad delectus ipsam
+                                debitis, aliquid fugit velit sunt blanditiis facere assumenda, et nulla adipisci! Et,
+                                voluptates illum laudantium inventore at sit?lrome
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====End Carousel Section ==== -->
+        <!-- Business Info -->
+        <div class="container mt-5">
+            <div class="row g-0 shadow-sm">
+                <div class="col-12 col-md-4 border-right ">
+                    <div class="business-info">
+                        <div>
+                            <img src="images/free-delivery.png" alt="">
+                        </div>
+                        <div class="business-info-text">
+                            <p>FREE SHIPPING</p>
+                            <h6>Every Day, Every Order</h6>
+                            <span>*All order over $100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 border-right">
+                    <div class="business-info">
+                        <div>
+                            <img src="images/customer-support.png" alt="">
+                        </div>
+                        <div class="business-info-text">
+                            <p>FRIENDLY SUPPORT</p>
+                            <h6>24/7 Dedicated Support</h6>
+                            <span>*Only In USA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <div class="business-info">
+                        <div>
+                            <img src="images/money-back.png" alt="">
+                        </div>
+                        <div class="business-info-text">
+                            <p>SECURE</p>
+                            <h6>Money Back Guranteed</h6>
+                            <span>*Conditions Apply</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Business Info End -->
+
+        <!-- ==== Sell Section  ==== -->
+        <section class="sell-section my-3">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-6 col-sm-6 pt-3">
+                        <div class="sell-item shadow-sm ">
+                            <div class="pt-4">
+                                <button class="btn-style" style="background: royalBlue">Top Book Seller</button>
+                                <p class="my-2" style=" font-size: 14px; color: #d0d3d6">-Jhankar Mahbub</p>
+                                <h5>প্যারাময় লাইফের প্যারাসিটামল (হার্ডকভার) by ঝংকার মাহবুব</h5>
+                                <p>Category: Best Seller in <a href="#">ছাত্রজীবন উন্নয়ন</a> </p>
+                                <h5>Starting at <span class="line-through">TK. 260 </span> TK. 221 <span
+                                        style="font-size:12px;  color: #9c9d9e">You Save TK. 39 (15%)</span>
+                                </h5>
+                            </div>
+                            <img class="img-fluid sell-item-img" src="bookImages/top-sell/para-moy.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 pt-3">
+                        <div class="sell-item shadow-sm ">
+                            <div class="pt-4">
+                                <button class="btn-style" style="background: #c9151b">Top Book Seller</button>
+                                <p class="my-2" style=" font-size: 14px; color: #d0d3d6">-Chomok Hasan</p>
+                                <h5>নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ <br> ডিফারেন্সিয়াল ক্যালকুলাস নিয়ে আলোচনা </h5>
+                                <p>Category: Best Seller in <a href="#">গণিত</a> </p>
+                                <h5>Starting at <span class="line-through">TK. 400 </span> TK. 340 <span
+                                        style="font-size:12px;  color:  #9c9d9e">You Save TK. 60 (15%)</span></h5>
+                            </div>
+                            <img class="img-fluid sell-item-img" src="bookImages/top-sell/nimik-pane.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Shop Section  ==== -->
+        <section class="shop-section my-4">
+            <div class="container">
+                <h4 class="my-5">আমাদের প্রকাশনী সমুহঃ</h4>
+                <div class="row g-2">
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/anondo.jpg" alt="">
+                                <h6 class="text-center text-dark py-2">আনন্দ পাবলিশার্স </h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/anoprokas.jpg" alt="">
+                                <h6 class="text-center text-dark py-2"> অন্যপ্রকাশ</h6>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/bangla-academic.png" alt="">
+                                <h6 class="text-center text-dark py-2"> বাংলা একাডেমি</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/d105f4cbb_769.jpg" alt="">
+                                <h6 class="text-center text-dark py-2"> ইসলামিক ফাউন্ডেশন</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/de'j.jpg" alt="">
+                                <h6 class="text-center text-dark py-2"> ইসলামিক ফাউন্ডেশন</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/gankosh.jpg" alt="">
+                                <h6 class="text-center text-dark py-2">জ্ঞানকোষ প্রকাশনী</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/f405172f2_91.png" alt="">
+                                <h6 class="text-center text-dark py-2"> প্রকাশনী</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/tamrolipi.jpg" alt="">
+                                <h6 class="text-center text-dark py-2">তাম্রলিপি প্রকাশনী</h6>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/oitihaz.jpg" alt="">
+                                <h6 class="text-center text-dark py-2"> ঐতিহ্য প্রকাশনী</h6>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/panjery.jpg" alt="">
+                                <h6 class="text-center text-dark py-2">পাঞ্জেরী পাবলিকেশন</h6>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/pathokSomabesh.jpg" alt="">
+                                <h6 class="text-center text-dark py-2">জ্ঞানকোষ প্রকাশনী</h6>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-2  ">
+                        <a href="/">
+                            <div
+                                class="bg-white rounded shadow-sm d-flex justify-content-center align-items-center flex-column pt-3">
+                                <img class="img-fluid" src="bookImages/pokasoni/saifur's.jpg" alt="">
+                                <h6 class="text-center text-dark py-2">সাইফুর’স প্রকাশনী</h6>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Shop-by-brand Section  ==== -->
+        <section class="shop-by-brand">
+            <div class="container">
+                <div class="brand-header">
+                    <h4> নতুন বই সমুহঃ </h4>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/0cf44d57d_99160.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/4630257df_156234.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/4ff0ac9ff_197050.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/5c71fa558_202593.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/6599b92c7_204476.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/6599b92c7_204476.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/c9db882b8_1238.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/c9db882b8_1238.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/c9db882b8_1238.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="shop-by-brand-list">
+                    <div class="row g-2 ">
+                        <div class="col-6 col-sm-4 col-sm-3 col-md-3 col-lg-2">
+                            <a href="/">
+                                <div class="shadow-sm shop-by-brand-item">
+                                    <div class="overflow: hidden" class="">
+                                        <div class="figure">
+                                            <img class="img-fluid" src="bookImages/recent-book/0cf44d57d_99160.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 25px; text-align: center;">
+                                        <p >স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                        <span class="line-through">TK. 400 </span>
+                                        <span>Tk. 300</span>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="btn btn-primary">Add To Cart</button>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- ==== Bags & Luggage Section  ==== -->
+        <section class="bags-luggage-section pt-3 pb-5">
+            <div class="container">
+                <div class="brand-header">
+                    <h4>গত সপ্তাহের বেস্টসেলার ২০টি পণ্যঃ</h4>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute"
+                                            src="bookImages/top-sell/nimik-pane.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute" src="bookImages/top-sell/para-moy.jpg"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute"
+                                            src="bookImages/top-sell/bolod-to-boss.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute" src="bookImages/top-sell/gonit.jpg"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute"
+                                            src="bookImages/top-sell/gople-gople-j.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute"
+                                            src="bookImages/top-sell/nimik-pane2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute" src="bookImages/top-sell/para-moy.jpg"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <a href="/">
+                            <div class="product-cart shadow-sm">
+                                <div class="overflow-hidden">
+                                    <div class="product-cart-img">
+                                        <img class="img-fluid position-absolute"
+                                            src="bookImages/top-sell/programming-er-choto.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class=" py-2 text-center product-cart-content">
+                                    <h6> নিমিখ পানে: ক্যালকুলাসের পথ পরিভ্রমণ (হার্ডকভার) </h6>
+                                    <div class="rating-style mt-2 mb-1">
+                                        <div>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star text-primary"></i></span>
+                                            <span><i class="fas fa-star-half-alt text-primary"></i></span>
+                                        </div>
+                                        <div>
+                                            <span> 207 Rating / </span>
+                                            <span>110 Reviewers</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <p class="mt-3" style="font-size: 16px;"> <span><i
+                                                    class="far fa-heart"></i></span> Add To BookList</p>
+                                        <button class="btn btn-sm btn-primary">Add To Cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- ================== New Section================== -->
+        <section class="">
+            <div class="container">
+                <h4 class="my-3"> প্রি-অর্ডারে থাকা বইঃ </h4>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/0cf44d57d_99160.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/4630257df_156234.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/4ff0ac9ff_197050.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/5c71fa558_202593.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/6599b92c7_204476.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/6599b92c7_204476.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/c9db882b8_1238.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/c9db882b8_1238.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-sm shop-by-brand-item">
+                            <div class="overflow: hidden" class="">
+                                <div class="figure">
+                                    <img class="img-fluid" src="bookImages/recent-book/c9db882b8_1238.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <p>স্মার্ট ইংলিশ স্মার্ট ওয়ে টু লার্ন ইংলিশ</p>
+                                <span class="line-through">TK. 400 </span>
+                                <span>Tk. 300</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- =============== Footer section ================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="footer-download">
+                        <h5>Download</h5>
+                        <a href="/">
+                            <img src="images/footer/coming-soon.png" alt="">
+                        </a>
+                        <a href="/">
+                            <img src="images/footer/coming-soon (1).png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-menu">
+                        <h5>Menu</h5>
+                        <div class="list">
+                            <a href="/">Privacy Policy</a>
+                            <a href="/">Cookie Policy</a>
+                            <a href="/">Purchasing Policy</a>
+                            <a href="/">Terms & Conditions</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-contact">
+                        <h5>Contact Us</h5>
+                        <span>House #8 (1st Floor), Road # 14,
+                            Dhanmondi, Dhaka-1209.</span>
+                        <span>Email: support@evaly.com.bd</span>
+                        <span>Contact no: 09638111666</span>
+                        <span>Terms & Conditions</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Get in Touch</h5>
+                    <div class="mt-4 footer-get-in-touch">
+                        <a href="/" class="facebook">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mx-auto">
+                                <path
+                                    d="M3.02293 16L3 9H0V6H3V4C3 1.3008 4.67151 0 7.07938 0C8.23277 0 9.22406 0.08587 9.51294 0.12425V2.94507L7.84296 2.94583C6.53343 2.94583 6.27987 3.5681 6.27987 4.48124V6H10L9 9H6.27986V16H3.02293Z"
+                                    fill="#A7ABBD"></path>
+                            </svg>
+                        </a>
+                        <a href="/" class="instagram">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.1446 4.85164C12.6748 4.85164 13.1046 4.42183 13.1046 3.89164C13.1046 3.36145 12.6748 2.93164 12.1446 2.93164C11.6144 2.93164 11.1846 3.36145 11.1846 3.89164C11.1846 4.42183 11.6144 4.85164 12.1446 4.85164Z"
+                                    fill="#A7ABBD"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4 8C4 10.206 5.794 12 8 12C10.206 12 12 10.206 12 8C12 5.794 10.206 4 8 4C5.794 4 4 5.794 4 8ZM6 8C6 6.897 6.897 6 8 6C9.103 6 10 6.897 10 8C10 9.103 9.103 10 8 10C6.897 10 6 9.103 6 8Z"
+                                    fill="#A7ABBD"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4 16H12C14.056 16 16 14.056 16 12V4C16 1.944 14.056 0 12 0H4C1.944 0 0 1.944 0 4V12C0 14.056 1.944 16 4 16ZM2 4C2 3.065 3.065 2 4 2H12C12.935 2 14 3.065 14 4V12C14 12.935 12.935 14 12 14H4C3.047 14 2 12.953 2 12V4Z"
+                                    fill="#A7ABBD"></path>
+                            </svg>
+                        </a>
+                        <a href="/" class="youtube">
+                            <svg width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mx-auto">
+                                <path
+                                    d="M21.5 7.93423C21.5 7.88267 21.5 7.82407 21.4977 7.7561C21.4953 7.56626 21.4906 7.35298 21.4859 7.12564C21.4672 6.47173 21.4344 5.82017 21.3828 5.2061C21.3125 4.36001 21.2094 3.65454 21.0687 3.12485C20.9204 2.57208 20.6295 2.06794 20.2252 1.66281C19.8209 1.25769 19.3173 0.965782 18.7648 0.81626C18.1016 0.638135 16.8031 0.527978 14.975 0.46001C14.1055 0.427197 13.175 0.406103 12.2445 0.394385C11.9187 0.389697 11.6164 0.387354 11.3445 0.38501H10.6555C10.3836 0.387354 10.0813 0.389697 9.75547 0.394385C8.825 0.406103 7.89453 0.427197 7.025 0.46001C5.19687 0.530322 3.89609 0.640478 3.23516 0.81626C2.6825 0.965415 2.17876 1.2572 1.7744 1.66238C1.37004 2.06756 1.07928 2.5719 0.93125 3.12485C0.788281 3.65454 0.6875 4.36001 0.617188 5.2061C0.565625 5.82017 0.532812 6.47173 0.514062 7.12564C0.507031 7.35298 0.504687 7.56626 0.502344 7.7561C0.502344 7.82407 0.5 7.88267 0.5 7.93423V8.06548C0.5 8.11704 0.5 8.17564 0.502344 8.2436C0.504687 8.43345 0.509375 8.64673 0.514062 8.87407C0.532812 9.52798 0.565625 10.1795 0.617188 10.7936C0.6875 11.6397 0.790625 12.3452 0.93125 12.8749C1.23125 13.9975 2.1125 14.8834 3.23516 15.1834C3.89609 15.3616 5.19687 15.4717 7.025 15.5397C7.89453 15.5725 8.825 15.5936 9.75547 15.6053C10.0813 15.61 10.3836 15.6124 10.6555 15.6147H11.3445C11.6164 15.6124 11.9187 15.61 12.2445 15.6053C13.175 15.5936 14.1055 15.5725 14.975 15.5397C16.8031 15.4694 18.1039 15.3592 18.7648 15.1834C19.8875 14.8834 20.7687 13.9999 21.0687 12.8749C21.2117 12.3452 21.3125 11.6397 21.3828 10.7936C21.4344 10.1795 21.4672 9.52798 21.4859 8.87407C21.493 8.64673 21.4953 8.43345 21.4977 8.2436C21.4977 8.17564 21.5 8.11704 21.5 8.06548V7.93423ZM19.8125 8.0561C19.8125 8.10532 19.8125 8.15923 19.8102 8.22251C19.8078 8.40532 19.8031 8.60688 19.7984 8.82485C19.782 9.44829 19.7492 10.0717 19.7 10.6506C19.6367 11.4053 19.5477 12.0241 19.4375 12.4389C19.2922 12.9803 18.8656 13.4092 18.3266 13.5522C17.8344 13.6834 16.5945 13.7889 14.9094 13.8522C14.0562 13.885 13.1375 13.9061 12.2211 13.9178C11.9 13.9225 11.6023 13.9249 11.3352 13.9249H10.6648L9.77891 13.9178C8.8625 13.9061 7.94609 13.885 7.09063 13.8522C5.40547 13.7866 4.16328 13.6834 3.67344 13.5522C3.13437 13.4069 2.70781 12.9803 2.5625 12.4389C2.45234 12.0241 2.36328 11.4053 2.3 10.6506C2.25078 10.0717 2.22031 9.44829 2.20156 8.82485C2.19453 8.60688 2.19219 8.40298 2.18984 8.22251C2.18984 8.15923 2.1875 8.10298 2.1875 8.0561V7.9436C2.1875 7.89438 2.1875 7.84048 2.18984 7.7772C2.19219 7.59438 2.19688 7.39282 2.20156 7.17485C2.21797 6.55142 2.25078 5.92798 2.3 5.34907C2.36328 4.59438 2.45234 3.97563 2.5625 3.56079C2.70781 3.01938 3.13437 2.59048 3.67344 2.44751C4.16562 2.31626 5.40547 2.21079 7.09063 2.14751C7.94375 2.1147 8.8625 2.0936 9.77891 2.08188C10.1 2.0772 10.3977 2.07485 10.6648 2.07485H11.3352L12.2211 2.08188C13.1375 2.0936 14.0539 2.1147 14.9094 2.14751C16.5945 2.21313 17.8367 2.31626 18.3266 2.44751C18.8656 2.59282 19.2922 3.01938 19.4375 3.56079C19.5477 3.97563 19.6367 4.59438 19.7 5.34907C19.7492 5.92798 19.7797 6.55142 19.7984 7.17485C19.8055 7.39282 19.8078 7.59673 19.8102 7.7772C19.8102 7.84048 19.8125 7.89673 19.8125 7.9436V8.0561ZM8.91406 11.1405L14.3516 7.97642L8.91406 4.85923V11.1405Z"
+                                    fill="#A7ABBD"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </footer>
+
+
+    <!--  jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/cbcb8f4c06.js" crossorigin="anonymous"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script src="js/app.js"> </script>
+
+</body>
+
+
+
+</html>
