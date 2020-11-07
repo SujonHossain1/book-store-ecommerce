@@ -5,7 +5,7 @@ const navLinkList = document.querySelectorAll('.nav-link');
 function fixNav() {
     if (window.scrollY >= 30) {
         nav.classList.add('fixed');
-      
+
     } else {
         nav.classList.remove('fixed');
     }
@@ -30,7 +30,7 @@ toggleMobile.addEventListener('click', () => {
     sideMenuOverlay.style.display = "block";
 })
 
-crossBtn.addEventListener('click', () =>{
+crossBtn.addEventListener('click', () => {
     sideMenuOverlay.style.display = "none";
 })
 
@@ -47,7 +47,7 @@ secondOwl.owlCarousel({
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
-    // nav: true,
+    nav: true,
     responsive: {
         0: {
             items: 1
@@ -70,7 +70,7 @@ owl.owlCarousel({
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
-    // nav: true,
+    nav: true,
     responsive: {
         0: {
             items: 2

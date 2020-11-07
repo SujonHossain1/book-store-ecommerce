@@ -1,8 +1,8 @@
 :root {
     --border-color: #e0e0e0;
-    /* --primary: #3498db; */
-    --primary: #0d6efd;
-    --primary-secondary: #3498dbd5;
+    --primary: #3498db;
+    /* --primary: #0d6efd; */
+    --primary-secondary: #3498dbc4;
     --secondary:  #c9151b;
     --placeholder: #d0d3d6;
     --background: #f5f6f7;
@@ -31,10 +31,33 @@ body {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
-    background: var(--background);
+    /* background: lightblue; */
     font-size: 14px;
 }
-
+.owl-next{
+    font-size: 40px !important;
+    position: absolute;
+    right: 0;
+    top: 90px;
+    background: white !important;
+    width: 30px;
+    height: 64px;
+    box-shadow: 1px 1px  9px #000;
+}
+.owl-prev{
+    font-size: 40px !important;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    background: white !important;
+    width: 30px;
+    height: 64px;
+    box-shadow: 1px 1px  9px #000;
+}
+.owl-prev:focus, .owl-next:focus {
+    border: none;
+    outline: none;
+}
 .btn-style {
     border: none;
     outline: none;
@@ -67,7 +90,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+.slick-next {
+    right: -85px;
+}
+.slick-prev {
+    left: -66px;
+}
+ .slick-prev::before, .slick-next::before {
+    color: blue;
+ 
+}
 /***** Navigation  style  *********/
 .sticky {
     transition: all 0.20s linear 0s;
@@ -642,6 +674,7 @@ button.mobile-nav-button:focus {
 
 .business-info-text {
     padding-left: 30px;
+    line-height: 4px;
 }
 
 .business-info-text p {
